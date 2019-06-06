@@ -1,9 +1,7 @@
-Servlets\selectAprovado.class
 DAO\ModuloConexao.class
 Servlets\criaRequisicao.class
 Servlets\selectRequisicao.class
 Servlets\pesquisaRequisicao.class
-Servlets\selectRejeitado.class
 Servlets\aprovaRequisicao.class
 Model\Requisicao.class
 DAO\RequisicaoDAO.class

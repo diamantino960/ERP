@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author Guilherme Feitosa
+ * @author Guilherme Feitosa, Matheus Diamantino, Carlos Bueno, Gabriel Gomes e Erick Marques
  */
 @WebServlet(name = "home", urlPatterns = {"/home"})
 public class login extends HttpServlet {

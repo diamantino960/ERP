@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Guilherme Feitosa
+ * @author Guilherme Feitosa, Matheus Diamantino, Carlos Bueno, Gabriel Gomes e Erick Marques
  */
 public class RequisicaoDAO {
 

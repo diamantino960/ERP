@@ -1,9 +1,3 @@
-<%-- 
-    Document   : itemaprovacao
-    Created on : 03/06/2019, 21:18:43
-    Author     : Guilherme Feitosa
---%>
-
 <%@page import="java.sql.ResultSet"%>
 <%@page import="DAO.RequisicaoDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -14,7 +8,7 @@
         <title>Itens a Aprovar</title>
     </head>
     <body>
-        <div class="container">
+        <div>
 
 
             <h1>Itens a Aprovar</h1> 
@@ -36,7 +30,6 @@
                     RequisicaoDAO requisicao = new RequisicaoDAO();
                     ResultSet result = requisicao.consulta();
                     while (result.next()) {
-
                 %>
 
                 <tr>
@@ -53,15 +46,16 @@
             </table>
             <br>
             <br>
-            <div class="mb-3">
-                <div><label>Digite o ID da Requisição</label></div>
+            <div>
+                <div><label>Digite o ID da Requisição: </label></div>
                 <form action="pesquisaRequisicao" method="POST">
                     <label for="pesquisaRequisicao"></label>
                     <input type="search" name="pesquisaReq" >
                     <button type="submit">Pesquisar</button>
                 </form>
             </div>
-            <a href="Aprovacao.jsp">Voltar</a>
+                  <br><br>
+            <a href="Aprovacao.jsp">Voltar</a><br>
             <a href="index.html">Sair</a>
     </body>
 </html>

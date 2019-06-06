@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author Guilherme Feitosa
+ * @author Guilherme Feitosa, Matheus Diamantino, Carlos Bueno, Gabriel Gomes e Erick Marques
  */
 @WebServlet(name = "rejeicao", urlPatterns = {"/rejeicao"})
 public class rejeicao extends HttpServlet {

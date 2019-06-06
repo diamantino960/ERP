@@ -1,9 +1,3 @@
-<%-- 
-    Document   : requisicaoOk
-    Created on : 03/06/2019, 18:32:52
-    Author     : Guilherme Feitosa
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,13 +8,15 @@
     <body>
         <h1>Requisição Criada com Sucesso!</h1>
         <label>Seu número de requisição é:  
-            <input value="${requisicao.id}" name="id" type="text" disabled="disabled">
+            <input value="${requisicao.id}" name="id">
         </label>
     </body>
     <div>
         <br>
         <br>
-        <a href="Requisicao.jsp">Nova Requisição</a>
+        <br>
+        <a href="Requisicao.jsp">Nova Requisição</a> 
+      <br>
         <a href="index.html">Sair</a>
     </div>
 

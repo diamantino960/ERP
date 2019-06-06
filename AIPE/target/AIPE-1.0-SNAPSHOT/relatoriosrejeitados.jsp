@@ -1,9 +1,3 @@
-<%-- 
-    Document   : requisicoesrejeitadas
-    Created on : 05/06/2019, 08:53:29
-    Author     : Guilherme Feitosa
---%>
-
 <%@page import="java.sql.ResultSet"%>
 <%@page import="DAO.RequisicaoDAO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -34,7 +28,6 @@
                     RequisicaoDAO requisicao = new RequisicaoDAO();
                     ResultSet result = requisicao.consultaRejeitados();
                     while (result.next()) {
-
                 %>
 
                 <tr>
@@ -50,8 +43,9 @@
                 <% }
                 %>
             </table>
-            <br>
+            <br><br><br><br><br>
             <a href="relatorio.jsp">Voltar</a>
+                  <br>
             <a href="index.html">Sair</a>
     </body>
 </html>

@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author Guilherme Feitosa
+ * @author Guilherme Feitosa, Matheus Diamantino, Carlos Bueno, Gabriel Gomes e Erick Marques
  */
 public class ModuloConexao {
 

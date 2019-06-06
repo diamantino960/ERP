@@ -1,9 +1,3 @@
-<%-- 
-    Document   : aprovar
-    Created on : 04/06/2019, 08:26:07
-    Author     : Guilherme Feitosa
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,7 +6,6 @@
         <title>Aprovação</title>
 
         <style>
-
             .caixa {
                 font-family: ;
                 position: absolute;
@@ -27,7 +20,6 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
             .caixa1 {
                 font-family: ;
                 position: absolute;
@@ -42,7 +34,6 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
             .caixa2 {
                 font-family: ;
                 position: absolute;
@@ -57,7 +48,6 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
             .caixa3 {
                 font-family: ;
                 position: absolute;
@@ -72,11 +62,6 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
-
-
-
-
         </style>
     </head>
     <body>
@@ -113,17 +98,22 @@
                 </div>
 
                 <br><br>
-                <div>
+                <div align="center">
                     <button style = "border-radius: 5px;" type="submit">Aprovar</button>
                 </div>
-
+<br>
             </div>
         </form>
         <form action="rejeitaRequisicao" method="POST"> 
-            <div>
+            <div align="center">
                 <button style = "border-radius: 5px;" type="submit">Rejeitar</button>
             </div>
         </form>
+      
+      <br>
+      
+      <a href="index.html">Sair</a>
+      
     </body>
-    <a href="index.html">Sair</a>
+    
 </html>

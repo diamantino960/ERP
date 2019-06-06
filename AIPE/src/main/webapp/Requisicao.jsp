@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Requisicao
-    Created on : 03/06/2019, 17:30:17
-    Author     : Guilherme Feitosa
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,7 +6,6 @@
         <meta charset="utf-8">
 
         <style>
-
             .box2 {
                 font-family: ;
                 position: absolute;
@@ -27,7 +20,6 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
         </style>
 
 
@@ -71,7 +63,6 @@
                 </div>
             </div>
         </form>
-
+      <h4 style="padding:380px 20px;"><a href="index.html">Sair</a></h4>
     </body>
-    <a href="index.html">Sair</a>
 </html>

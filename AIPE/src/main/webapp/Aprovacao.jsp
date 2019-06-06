@@ -1,18 +1,11 @@
-<%-- 
-    Document   : Aprovacao
-    Created on : 03/06/2019, 17:29:20
-    Author     : Guilherme Feitosa
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Requisição</title>
+        <title>Menu</title>
         <meta charset="utf-8">
 
         <style>
-
             .caixa {
                 font-family: ;
                 position: absolute;
@@ -27,7 +20,6 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
             .caixa1 {
                 font-family: ;
                 position: absolute;
@@ -42,7 +34,6 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
             .caixa2 {
                 font-family: ;
                 position: absolute;
@@ -57,7 +48,6 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
             .caixa3 {
                 font-family: ;
                 position: absolute;
@@ -72,26 +62,20 @@
                 margin:auto;
                 border-radius: 10px;  
             }
-
-
             }
-
-
         </style>
 
     </head>
     <body>
+      <h1>Menu</h1>
+      
         <form action="" method="post">
-
-            
-            <div>
-            <a href="itemaprovacao.jsp">Itens a Aprovar</a>
-            <a href ="relatorio.jsp">Relatório</a>
-            </div>
+            <div align="center" style="padding:120px">
+            <a href="itemaprovacao.jsp">Itens a Aprovar</a> <br><br>
+            <a href ="relatorio.jsp">Relatório</a> <br><br>
             <a href="index.html">Sair</a>
-
+            </div>
         </form>
 
     </body>
 </html>
-
