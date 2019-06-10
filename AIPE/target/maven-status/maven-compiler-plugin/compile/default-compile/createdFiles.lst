@@ -7,4 +7,5 @@ Model\Requisicao.class
 DAO\RequisicaoDAO.class
 Servlets\rejeitaRequisicao.class
 Servlets\rejeicao.class
+Servlets\pesquisaRequisicao2.class
 Servlets\login.class

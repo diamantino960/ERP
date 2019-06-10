@@ -63,6 +63,13 @@
                 </div>
             </div>
         </form>
-      <h4 style="padding:380px 20px;"><a href="index.html">Sair</a></h4>
+        <br>
+
+        <br>
+        <h4 style="padding:380px 20px;">
+            <a href="Menu.jsp">Voltar</a>
+            <br>
+            <a href="index.html">Sair</a>
+        </h4>
     </body>
 </html>

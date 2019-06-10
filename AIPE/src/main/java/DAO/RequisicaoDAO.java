@@ -80,6 +80,8 @@ public class RequisicaoDAO {
                 requisicao.setDetrequisicao(rs.getString("detrequisicao"));
                 requisicao.setValor(rs.getString("valorestimado"));
                 requisicao.setId(rs.getInt("id"));
+                requisicao.setMotivo(rs.getString("motivo"));
+                requisicao.setStatus(rs.getString("status"));
                 System.out.println(requisicao.getId());
 
             }
@@ -165,5 +167,34 @@ public class RequisicaoDAO {
         }
         return rs;
     }
+     public Requisicao pesquisarId(String pesquisa) {
+
+        Requisicao requisicao = new Requisicao();
+
+        try {
+            conexao = ModuloConexao.conector();
+            java.sql.Statement stmt = conexao.createStatement();
+
+            String sql = "SELECT * FROM tbrequisicoes where id = '" + pesquisa + "'";
+            ResultSet rs = stmt.executeQuery(sql);
+            while (rs.next()) {
+                requisicao.setDetrequisicao(rs.getString("detrequisicao"));
+                requisicao.setFornecedor(rs.getString("fornecedor"));
+                requisicao.setId(rs.getInt("id"));
+                requisicao.setMotivo(rs.getString("motivo"));
+                requisicao.setProjeto(rs.getString("projeto"));
+                requisicao.setStatus(rs.getString("status"));
+                requisicao.setValor(rs.getString("valorestimado"));
+                System.out.println(requisicao.getId());
+
+            }
+            rs.close();
+            stmt.close();
+        } catch (SQLException e) {
+
+        }
+        return requisicao;
+    }
+     
 }
 

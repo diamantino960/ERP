@@ -48,7 +48,7 @@ public class login extends HttpServlet {
         if (username.equals("admin") && password.equals("adminadmin")) {
             request.getRequestDispatcher("Aprovacao.jsp").forward(request, response);
         } if (username.equals("func") && password.equals("funcfunc")) {
-            request.getRequestDispatcher("Requisicao.jsp").forward(request, response);
+            request.getRequestDispatcher("Menu.jsp").forward(request, response);
             
         } else{
             System.out.println("Usuário não encontrado");

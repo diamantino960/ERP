@@ -16,7 +16,11 @@
         <br>
         <br>
         <a href="Requisicao.jsp">Nova Requisição</a> 
-      <br>
+        <br>
+        <a href="Menu.jsp">Voltar</a>
+
+        <br>
+
         <a href="index.html">Sair</a>
     </div>
 
